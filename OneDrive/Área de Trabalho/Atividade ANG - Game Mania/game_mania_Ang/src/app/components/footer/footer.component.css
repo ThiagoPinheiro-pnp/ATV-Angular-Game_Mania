@@ -1,0 +1,147 @@
+/* Footer */
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b3d4148;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 60px;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  background: #000000;
+}
+
+.footer-items h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer-items li a {
+  color: #ddd;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.footer-items li a:hover {
+  text-decoration: underline;
+}
+
+.footer-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Footer */
+
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.top-bar a {
+    color: #007BFF;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bottom-bar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+.bottom-bar div {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.bottom-bar h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.bottom-bar a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.bottom-bar a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .bottom-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-bar div {
+        text-align: center;
+    }
+}
+
+
+html {
+    height: 100%;
+}
+
+.top-bar a {
+    color: #007BFF;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+*/

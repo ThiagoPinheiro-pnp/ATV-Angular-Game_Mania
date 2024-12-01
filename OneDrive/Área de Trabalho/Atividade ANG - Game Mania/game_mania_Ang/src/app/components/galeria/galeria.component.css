@@ -1,0 +1,79 @@
+.carrosel {
+  padding-right: 5px;
+}
+
+
+.exteriorcar {
+  background-image: rgba(0, 110, 255, 0.384), rgba(98, 0, 255, 0.315), #6f00ff0a;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textocar {
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 100%);
+  color: #ffffff;
+  border: 2px solid black;
+  width: 50%;
+  height: auto;
+  background-color: #ffffff00;
+  display: inline-block;
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px
+}
+
+.carousel-inner {
+  border-radius: 15px;
+
+}
+
+.marcas{
+  width: 100%;
+}
+
+.marcas2{
+  width: 75%;
+  margin-left: 250px;
+}
+
+
+.quadrado#q1 {
+  border: 2px solid rgb(255, 255, 255);
+  width: 250px;
+  height: 150px;
+  background-color: #ffffff5b;
+  display: inline-block;
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form1 {
+  width: 500px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+}

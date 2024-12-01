@@ -1,0 +1,125 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+
+/* Contêiner principal */
+.main-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contêiner do produto */
+.product-container {
+  flex: 1;
+  text-align: center;
+}
+
+.product-container img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Contêiner de informações de compra */
+.info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.info-container h2 {
+  margin-bottom: 1rem;
+  color: #007BFF;
+}
+
+.info-container p {
+  margin-bottom: 1rem;
+}
+
+.info-container button {
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.info-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Formulário de endereço */
+.form-container {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Alinhamento dos campos do formulário */
+.form-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group .half-width {
+  flex: 1;
+}
+
+.form-container button {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-container button:hover {
+  background-color: #218838;
+}
